@@ -57,21 +57,29 @@ function filterDragons() {
   // Get the original data
   const originalData = window.originalData;
 
+function filterDragons() {
+  // Get the search input value
+  const searchInput = document.getElementById('searchInput').value.toLowerCase();
+
+  // Get the original data
+  const originalData = window.originalData;
+
   // Filter the data based on the search input
   const filteredData = searchInput
     ? originalData
-        .split('<div class="dragon-info">')
+        .split('</div>')
         .filter(item => {
           const dragonInfo = item.toLowerCase();
-          return dragonInfo.includes(searchInput);
+          return dragonInfo.includes('>' + searchInput + '<');
         })
-        .map(item => '<div class="dragon-info">' + item)
+        .map(item => item + '</div>')
         .join('')
     : '';
 
   // Display the filtered content in the dynamic-content div
   document.getElementById('dynamic-content').innerHTML = filteredData;
 }
+
 
   </script>
 </body>
