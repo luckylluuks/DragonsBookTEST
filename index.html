@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Content Example</title>
+  <style>
+    #content-container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body onload="loadContent()">
+  <div id="content-container">
+    <h1>Dynamic Content Example</h1>
+    <div id="dynamic-content"></div>
+    <img id="dynamic-image" style="display: none;">
+  </div>
+
+  <script>
+    function loadContent() {
+      // Load content from a file (using a relative path)
+      fetch('dragons.txt')
+        .then(response => response.text())
+        .then(data => {
+          // Display the content in the dynamic-content div
+          document.getElementById('dynamic-content').innerHTML = data;
+        })
+        .catch(error => {
+          console.error('Error loading content:', error);
+        });
+
+      // Load an image (using a relative path)
+      document.getElementById('dynamic-image').src = 'example.jpg';
+      document.getElementById('dynamic-image').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
