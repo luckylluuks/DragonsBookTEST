@@ -32,8 +32,8 @@
 
   <script>
     function loadContent() {
-      // Load content from a file (using a relative path)
-      fetch('dragons.txt')
+      // Load content from GitHub
+      fetch('https://raw.githubusercontent.com/luckylluuks/DragonsBookTEST/main/dragons.txt')
         .then(response => response.text())
         .then(data => {
           // Store the original data
@@ -46,41 +46,32 @@
         });
 
       // Load an image (using a relative path)
-      document.getElementById('dynamic-image').src = 'example.jpg';
+      document.getElementById('dynamic-image').src = 'example.jpg';  // Update the path if needed
       document.getElementById('dynamic-image').style.display = 'block';
     }
 
-function filterDragons() {
-  // Get the search input value
-  const searchInput = document.getElementById('searchInput').value.toLowerCase();
+    function filterDragons() {
+      // Get the search input value
+      const searchInput = document.getElementById('searchInput').value.toLowerCase();
 
-  // Get the original data
-  const originalData = window.originalData;
+      // Get the original data
+      const originalData = window.originalData;
 
-function filterDragons() {
-  // Get the search input value
-  const searchInput = document.getElementById('searchInput').value.toLowerCase();
+      // Filter the data based on the search input
+      const filteredData = searchInput
+        ? originalData
+            .split('</div>')
+            .filter(item => {
+              const dragonInfo = item.toLowerCase();
+              return dragonInfo.includes('>' + searchInput + '<');
+            })
+            .map(item => item + '</div>')
+            .join('')
+        : '';
 
-  // Get the original data
-  const originalData = window.originalData;
-
-  // Filter the data based on the search input
-  const filteredData = searchInput
-    ? originalData
-        .split('</div>')
-        .filter(item => {
-          const dragonInfo = item.toLowerCase();
-          return dragonInfo.includes('>' + searchInput + '<');
-        })
-        .map(item => item + '</div>')
-        .join('')
-    : '';
-
-  // Display the filtered content in the dynamic-content div
-  document.getElementById('dynamic-content').innerHTML = filteredData;
-}
-
-
+      // Display the filtered content in the dynamic-content div
+      document.getElementById('dynamic-content').innerHTML = filteredData;
+    }
   </script>
 </body>
 </html>
