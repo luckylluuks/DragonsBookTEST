@@ -1,9 +1,17 @@
-dragonswefew
-<br>ff
-ewf
-we
-f
-fwe
-fg
-we
-gewgwgew
+<div class="dragon-info">
+  <h2>Fire Dragon</h2>
+  <p>A dragon breathing fire.</p>
+</div>
+<div class="dragon-info">
+  <h2>Ice Dragon</h2>
+  <p>A dragon with icy breath.</p>
+</div>
+
+<div class="dragon-info">
+  <h2>Fire Dragon</h2>
+  <p>A dragon breathing fire.</p>
+</div>
+<div class="dragon-info">
+  <h2>Ice Dragon</h2>
+  <p>A dragon with icy breath.</p>
+</div>
