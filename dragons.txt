@@ -1,16 +1,16 @@
-<div class="dragon-info">
+<div class="dragon-info" data-number="1">
   <h2>Fire Dragon</h2>
   <p>A dragon breathing fire.</p>
 </div>
-<div class="dragon-info">
+<div class="dragon-info" data-number="2">
   <h2>Ice Dragon</h2>
   <p>A dragon with icy breath.</p>
 </div>
-<div class="dragon-info">
+<div class="dragon-info" data-number="3">
   <h2>Thunder Dragon</h2>
   <p>A dragon that controls thunder and lightning.</p>
 </div>
-<div class="dragon-info">
+<div class="dragon-info" data-number="4">
   <h2>Earth Dragon</h2>
   <p>A dragon with the power to manipulate the earth.</p>
 </div>
