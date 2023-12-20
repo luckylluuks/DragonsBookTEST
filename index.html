@@ -27,7 +27,7 @@
     <input type="text" id="searchInput">
     <button onclick="filterDragons()">Search</button>
     <div id="dynamic-content"></div>
-<!--     <img id="dynamic-image" style="display: none;"> -->
+    <img id="dynamic-image" style="display: none;">
   </div>
 
   <script>
@@ -50,25 +50,25 @@
       document.getElementById('dynamic-image').style.display = 'block';
     }
 
-function filterDragons() {
-  // Get the search input value
-  const searchInput = document.getElementById('searchInput').value.toLowerCase();
+    function filterDragons() {
+      // Get the search input value
+      const searchInput = document.getElementById('searchInput').value.toLowerCase();
 
-  // Get the original data
-  const originalData = window.originalData;
+      // Get the original data
+      const originalData = window.originalData;
 
-  // Filter the data based on the search input
-  const filteredData = searchInput
-    ? originalData
-        .split('<div class="dragon-info">')
-        .filter(item => item.toLowerCase().includes(searchInput))
-        .map(item => '<div class="dragon-info>' + item + '</div>')
-        .join('')
-    : '';
+      // Filter the data based on the search input
+      const filteredData = searchInput
+        ? originalData
+            .split('<div class="dragon-info">')
+            .filter(item => item.toLowerCase().includes(searchInput))
+            .map(item => '<div class="dragon-info">' + item)
+            .join('')
+        : '';
 
-  // Display the filtered content in the dynamic-content div
-  document.getElementById('dynamic-content').innerHTML = filteredData;
-}
+      // Display the filtered content in the dynamic-content div
+      document.getElementById('dynamic-content').innerHTML = filteredData;
+    }
   </script>
 </body>
 </html>
