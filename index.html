@@ -57,14 +57,13 @@
       const originalData = window.originalData;
 
       // Filter the data based on the search input
-      const filteredData = originalData
-        .split('</div>')
-        .filter(item => {
-          const dragonName = item.toLowerCase();
-          return dragonName.includes(searchInput);
-        })
-        .map(item => item + '</div>')
-        .join('');
+      const filteredData = searchInput
+        ? originalData
+            .split('</div>')
+            .filter(item => item.toLowerCase().includes(searchInput))
+            .map(item => item + '</div>')
+            .join('')
+        : '';
 
       // Display the filtered content in the dynamic-content div
       document.getElementById('dynamic-content').innerHTML = filteredData;
