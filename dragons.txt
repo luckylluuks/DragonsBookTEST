@@ -44,7 +44,8 @@
 </div>
 <div class="dragon-info" data-number="00002">
   <h3>Ice Dragon</h3>
-  <p>A dragon with icy breath.</p>
+  <p>A dragon with icy breath.
+  <img src="example.jpg" alt="Ice Dragon"></p>
 </div>
 <div class="dragon-info" data-number="00003">
   <h3>Thunder Dragon</h3>
