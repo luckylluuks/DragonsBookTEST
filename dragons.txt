@@ -1,21 +1,23 @@
-   <div class="dragon-info" data-number="1">
-  <img src="example.jpg" alt="Fire Dragon">
-  <h2>Fire Dragon</h2>
+<div class="dragon-info" data-number="00001">
+  <h3>Fire Dragon</h3>
   <p>A dragon breathing fire.</p>
 
     <div class="dragon-container">
         <h1>Dragon Stats</h1>
 
         <div class="stat-category">
-            <h2>Elemental Abilities</h2>
+            <h3>Elemental Abilities</h3>
+            <p>
             <ul class="stat-list">
                 <li class="stat-item">Elemental Manipulation: 10</li>
                 <li class="stat-item">Flight: 40</li>
             </ul>
+            </p>
         </div>
 
         <div class="stat-category">
-            <h2>Base Abilities</h2>
+            <h3>Base Abilities</h3>
+            <p>
             <ul class="stat-list">
                 <li class="stat-item">Senses: 1</li>
                 <li class="stat-item">Defensive Abilities: 6</li>
@@ -31,6 +33,7 @@
                 <li class="stat-item">Cosmic and Primordial Forces: 4</li>
                 <li class="stat-item">Existential and Omnipotence: 28</li>
             </ul>
+            </p>
         </div>
 
         <div class="total-score">
@@ -40,19 +43,19 @@
 
 
 </div>
-<div class="dragon-info" data-number="2">
+<div class="dragon-info" data-number="00002">
   <img src="example.jpg" alt="Ice Dragon">
   <h2>Ice Dragon</h2>
   <p>A dragon with icy breath.</p>
 </div>
-<div class="dragon-info" data-number="3">
+<div class="dragon-info" data-number="00003">
   <img src="example.jpg" alt="Thunder Dragon">
   <h2>Thunder Dragon</h2>
   <p>A dragon that controls thunder and lightning.</p>
 
 
 </div>
-<div class="dragon-info" data-number="4">
+<div class="dragon-info" data-number="00004">
   <img src="example.jpg" alt="Earth Dragon">
   <h2>Earth Dragon</h2>
   <p>A dragon with the power to manipulate the earth.</p>
