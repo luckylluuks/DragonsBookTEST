@@ -85,6 +85,28 @@
       document.getElementById('dynamic-image').style.display = 'block';
     }
 
+function loadContent() {
+  // Load content from GitHub
+  fetch('https://raw.githubusercontent.com/luckylluuks/DragonsBookTEST/main/dragons.txt')
+    .then(response => response.text())
+    .then(data => {
+      // Store the original data
+      window.originalData = data;
+      // Display the content in the dynamic-content div
+      document.getElementById('dynamic-content').innerHTML = data;
+
+      // Call filterDragons with an empty search input to hide dragon info by default
+      filterDragons();
+    })
+    .catch(error => {
+      console.error('Error loading content:', error);
+    });
+
+  // Load an image (using a relative path)
+  document.getElementById('dynamic-image').src = 'file:///Users/luuk-overdevest/Downloads/testtie/Dragons/Test_book%20of%20Dragons/example.jpg';  // Update the path if needed
+  document.getElementById('dynamic-image').style.display = 'block';
+}
+
 function filterDragons() {
   // Get the search input value
   const searchInput = document.getElementById('searchInput').value.trim().toLowerCase();
@@ -122,6 +144,7 @@ function filterDragons() {
     }
   }
 }
+
 
 
 
