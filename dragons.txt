@@ -4,13 +4,8 @@
   <p>A dragon breathing fire.</p>
 
 
-
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dragon Stats</title>
+
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap">
     <style>
         body {
@@ -101,7 +96,6 @@
         </div>
     </div>
 </body>
-</html>
 
 </div>
 <div class="dragon-info" data-number="2">
