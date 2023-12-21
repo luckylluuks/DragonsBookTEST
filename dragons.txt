@@ -1,53 +1,130 @@
-<div class="dragon-info" data-number="00001">
-  <h3>Fire Dragon</h3>
-  <p>A dragon breathing fire.</p>
 
-    <div class="dragon-container">
-        <h1>Dragon Stats</h1>
 
-        <div class="stat-category">
-            <h3>Elemental Abilities</h3>
-            <p>
-            <ul class="stat-list">
-                <li class="stat-item">Elemental Manipulation: 10</li>
-                <li class="stat-item">Flight: 40</li>
-            </ul>
-            </p>
-
-            <h3>Base Abilities</h3>
-            <p>
-            <ul class="stat-list">
-                <li class="stat-item">Senses: 1</li>
-                <li class="stat-item">Defensive Abilities: 6</li>
-                <li class="stat-item">Offensive Abilities: 8</li>
-                <li class="stat-item">Other Abilities: 5</li>
-                <li class="stat-item">Intelligence and Wisdom: 4</li>
-                <li class="stat-item">Transformational Abilities: 12</li>
-                <li class="stat-item">Mystical and Celestial Abilities: 4</li>
-                <li class="stat-item">Empathy and Compassion: 9</li>
-                <li class="stat-item">Mental and Emotional Manipulation: 6</li>
-                <li class="stat-item">Life Force Manipulation: 13</li>
-                <li class="stat-item">Spiritual and Divine Abilities: 19</li>
-                <li class="stat-item">Cosmic and Primordial Forces: 4</li>
-                <li class="stat-item">Existential and Omnipotence: 28</li>
-            </ul>
-            </p>
-        <div class="total-score">
-            <p>Total Score: 240</p>
-        </div>
-        </div>
-
+    <div id="dragon1" class="dragon-card">
+        <div class="dragon-title">Dragon 1</div>
+        <ul class="dragon-stats">
+            <li class="ability">Elemental Manipulation: 4 points (base)</li>
+            <li class="ability">Flight: 12 points (base)</li>
+            <li class="ability">Senses: 3 points (base)</li>
+            <li class="ability">Defensive Abilities: 8 points (base)</li>
+            <li class="ability">Offensive Abilities: 7 points (base)</li>
+            <li class="ability">Other Abilities: 7 points (base)</li>
+            <li class="ability">Intelligence and Wisdom: 3 points (base)</li>
+            <li class="ability">Transformational Abilities: 19 points (base)</li>
+            <li class="ability">Mystical and Celestial Abilities: 3 points (base)</li>
+            <li class="ability">Empathy and Compassion: 9 points (base)</li>
+            <li class="ability">Mental and Emotional Manipulation: 4 points (base)</li>
+            <li class="ability">Life Force Manipulation: 4 points (base)</li>
+            <li class="ability">Spiritual and Divine Abilities: 18 points (base)</li>
+            <li class="ability">Cosmic and Primordial Forces: 2 points (base)</li>
+            <li class="ability">Existential and Omnipotence: 10 points (base)</li>
+            <li class="ability">Advanced Points: 49 points</li>
+            <li class="ability">Unique Abilities:</li>
+            <li class="ability">   Elemental Manipulation: 10 (rarity * usefulness)</li>
+            <li class="ability">   Flight: 40 (rarity * usefulness)</li>
+            <li class="ability">Total Score: 302</li>
+        </ul>
     </div>
-</div>
-<div class="dragon-info" data-number="00002">
-  <h3>Ice Dragon</h3>
-  <p>A dragon with icy breath.</p>
-</div>
-<div class="dragon-info" data-number="00003">
-  <h3>Thunder Dragon</h3>
-  <p>A dragon that controls thunder and lightning.</p>
-</div>
-<div class="dragon-info" data-number="00004">
-  <h3>Earth Dragon</h3>
-  <p>A dragon with the power to manipulate the earth.</p>
-</div>
+
+    <div id="dragon2" class="dragon-card">
+        <div class="dragon-title">Dragon 2</div>
+        <ul class="dragon-stats">
+            <li class="ability">Elemental Manipulation: 9 points (base)</li>
+            <li class="ability">Flight: 19 points (base)</li>
+            <li class="ability">Senses: 7 points (base)</li>
+            <li class="ability">Defensive Abilities: 7 points (base)</li>
+            <li class="ability">Offensive Abilities: 4 points (base)</li>
+            <li class="ability">Other Abilities: 9 points (base)</li>
+            <li class="ability">Intelligence and Wisdom: 3 points (base)</li>
+            <li class="ability">Transformational Abilities: 8 points (base)</li>
+            <li class="ability">Mystical and Celestial Abilities: 2 points (base)</li>
+            <li class="ability">Empathy and Compassion: 4 points (base)</li>
+            <li class="ability">Mental and Emotional Manipulation: 3 points (base)</li>
+            <li class="ability">Life Force Manipulation: 13 points (base)</li>
+            <li class="ability">Spiritual and Divine Abilities: 19 points (base)</li>
+            <li class="ability">Cosmic and Primordial Forces: 9 points (base)</li>
+            <li class="ability">Existential and Omnipotence: 8 points (base)</li>
+            <li class="ability">Advanced Points: 93 points</li>
+            <li class="ability">Unique Abilities:</li>
+            <li class="ability">   Elemental Manipulation: 10 (rarity * usefulness)</li>
+            <li class="ability">Total Score: 227</li>
+        </ul>
+    </div>
+
+    <div id="dragon3" class="dragon-card">
+        <div class="dragon-title">Dragon 3</div>
+        <ul class="dragon-stats">
+            <li class="ability">Elemental Manipulation: 6 points (base)</li>
+            <li class="ability">Flight: 15 points (base)</li>
+            <li class="ability">Senses: 1 points (base)</li>
+            <li class="ability">Defensive Abilities: 5 points (base)</li>
+            <li class="ability">Offensive Abilities: 0 points (base)</li>
+            <li class="ability">Other Abilities: 15 points (base)</li>
+            <li class="ability">Intelligence and Wisdom: 8 points (base)</li>
+            <li class="ability">Transformational Abilities: 15 points (base)</li>
+            <li class="ability">Mystical and Celestial Abilities: 9 points (base)</li>
+            <li class="ability">Empathy and Compassion: 4 points (base)</li>
+            <li class="ability">Mental and Emotional Manipulation: 1 points (base)</li>
+            <li class="ability">Life Force Manipulation: 17 points (base)</li>
+            <li class="ability">Spiritual and Divine Abilities: 11 points (base)</li>
+            <li class="ability">Cosmic and Primordial Forces: 8 points (base)</li>
+            <li class="ability">Existential and Omnipotence: 27 points (base)</li>
+            <li class="ability">Advanced Points: 11 points</li>
+            <li class="ability">Unique Abilities:</li>
+            <li class="ability">   Elemental Manipulation: 10 (rarity * usefulness)</li>
+            <li class="ability">Total Score: 163</li>
+        </ul>
+    </div>
+
+    <div id="dragon4" class="dragon-card">
+        <div class="dragon-title">Dragon 4</div>
+        <ul class="dragon-stats">
+            <li class="ability">Elemental Manipulation: 9 points (base)</li>
+            <li class="ability">Flight: 7 points (base)</li>
+            <li class="ability">Senses: 1 points (base)</li>
+            <li class="ability">Defensive Abilities: 6 points (base)</li>
+            <li class="ability">Offensive Abilities: 8 points (base)</li>
+            <li class="ability">Other Abilities: 5 points (base)</li>
+            <li class="ability">Intelligence and Wisdom: 4 points (base)</li>
+            <li class="ability">Transformational Abilities: 12 points (base)</li>
+            <li class="ability">Mystical and Celestial Abilities: 4 points (base)</li>
+            <li class="ability">Empathy and Compassion: 9 points (base)</li>
+            <li class="ability">Mental and Emotional Manipulation: 6 points (base)</li>
+            <li class="ability">Life Force Manipulation: 13 points (base)</li>
+            <li class="ability">Spiritual and Divine Abilities: 19 points (base)</li>
+            <li class="ability">Cosmic and Primordial Forces: 4 points (base)</li>
+            <li class="ability">Existential and Omnipotence: 28 points (base)</li>
+            <li class="ability">Advanced Points: 55 points</li>
+            <li class="ability">Unique Abilities:</li>
+            <li class="ability">   Elemental Manipulation: 10 (rarity * usefulness)</li>
+            <li class="ability">   Flight: 40 (rarity * usefulness)</li>
+            <li class="ability">Total Score: 240</li>
+        </ul>
+    </div>
+
+    <div id="dragon5" class="dragon-card">
+        <div class="dragon-title">Dragon 5</div>
+        <ul class="dragon-stats">
+            <li class="ability">Elemental Manipulation: 4 points (base)</li>
+            <li class="ability">Flight: 5 points (base)</li>
+            <li class="ability">Senses: 4 points (base)</li>
+            <li class="ability">Defensive Abilities: 1 points (base)</li>
+            <li class="ability">Offensive Abilities: 2 points (base)</li>
+            <li class="ability">Other Abilities: 18 points (base)</li>
+            <li class="ability">Intelligence and Wisdom: 1 points (base)</li>
+            <li class="ability">Transformational Abilities: 15 points (base)</li>
+            <li class="ability">Mystical and Celestial Abilities: 3 points (base)</li>
+            <li class="ability">Empathy and Compassion: 2 points (base)</li>
+            <li class="ability">Mental and Emotional Manipulation: 11 points (base)</li>
+            <li class="ability">Life Force Manipulation: 12 points (base)</li>
+            <li class="ability">Spiritual and Divine Abilities: 1 points (base)</li>
+            <li class="ability">Cosmic and Primordial Forces: 13 points (base)</li>
+            <li class="ability">Existential and Omnipotence: 26 points (base)</li>
+            <li class="ability">Advanced Points: 54 points</li>
+            <li class="ability">Unique Abilities:</li>
+            <li class="ability">   Elemental Manipulation: 10 (rarity * usefulness)</li>
+            <li class="ability">   Flight: 40 (rarity * usefulness)</li>
+            <li class="ability">   Senses: 90 (rarity * usefulness)</li>
+            <li class="ability">Total Score: 312</li>
+        </ul>
+    </div>
