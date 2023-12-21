@@ -1,3 +1,4 @@
+
 <div class="dragon-info" data-number="00001">
   <h3>Fire Dragon</h3>
   <p>A dragon breathing fire.</p>
@@ -13,9 +14,7 @@
                 <li class="stat-item">Flight: 40</li>
             </ul>
             </p>
-        </div>
 
-        <div class="stat-category">
             <h3>Base Abilities</h3>
             <p>
             <ul class="stat-list">
@@ -57,5 +56,3 @@
   <h3>Earth Dragon</h3>
   <p>A dragon with the power to manipulate the earth.</p>
 </div>
-
-
