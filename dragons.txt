@@ -1,12 +1,3 @@
-<div class="dragon-info" data-number="1">
-  <img src="example.jpg" alt="Fire Dragon">
-  <h2>Fire Dragon</h2>
-  <p>A dragon breathing fire.</p>
-
-
-<head>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap">
     <style>
         body {
             font-family: 'Arial', sans-serif;
@@ -59,8 +50,19 @@
             color: #27ae60;
         }
     </style>
+
+
+<head>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap">
+
 </head>
-<body>
+
+<div class="dragon-info" data-number="1">
+  <img src="example.jpg" alt="Fire Dragon">
+  <h2>Fire Dragon</h2>
+  <p>A dragon breathing fire.</p>
+
     <div class="dragon-container">
         <h1>Dragon Stats</h1>
 
@@ -95,7 +97,7 @@
             <p>Total Score: 240</p>
         </div>
     </div>
-</body>
+
 
 </div>
 <div class="dragon-info" data-number="2">
