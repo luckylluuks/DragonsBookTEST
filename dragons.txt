@@ -18,3 +18,103 @@
   <h2>Earth Dragon</h2>
   <p>A dragon with the power to manipulate the earth.</p>
 </div>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dragon Stats</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .dragon-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-image: url('https://firefly.adobe.com/public/t2i?id=urn%3Aaaid%3Asc%3AEU%3Abf4a220d-f518-4a48-88d6-b3610ddd8d7e.jpg');
+            background-size: cover;
+            background-position: center;
+            color: #000;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: 'Cinzel Decorative', cursive;
+        }
+
+        h1 {
+            color: #fff;
+        }
+
+        .stat-category {
+            margin-top: 20px;
+        }
+
+        .stat-category h2 {
+            color: #ddd;
+            margin-bottom: 10px;
+        }
+
+        .stat-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .stat-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .total-score {
+            font-size: 1.2em;
+            margin-top: 20px;
+            color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+    <div class="dragon-container">
+        <h1>Dragon Stats</h1>
+
+        <div class="stat-category">
+            <h2>Elemental Abilities</h2>
+            <ul class="stat-list">
+                <li class="stat-item">Elemental Manipulation: 10</li>
+                <li class="stat-item">Flight: 40</li>
+            </ul>
+        </div>
+
+        <div class="stat-category">
+            <h2>Base Abilities</h2>
+            <ul class="stat-list">
+                <li class="stat-item">Senses: 1</li>
+                <li class="stat-item">Defensive Abilities: 6</li>
+                <li class="stat-item">Offensive Abilities: 8</li>
+                <li class="stat-item">Other Abilities: 5</li>
+                <li class="stat-item">Intelligence and Wisdom: 4</li>
+                <li class="stat-item">Transformational Abilities: 12</li>
+                <li class="stat-item">Mystical and Celestial Abilities: 4</li>
+                <li class="stat-item">Empathy and Compassion: 9</li>
+                <li class="stat-item">Mental and Emotional Manipulation: 6</li>
+                <li class="stat-item">Life Force Manipulation: 13</li>
+                <li class="stat-item">Spiritual and Divine Abilities: 19</li>
+                <li class="stat-item">Cosmic and Primordial Forces: 4</li>
+                <li class="stat-item">Existential and Omnipotence: 28</li>
+            </ul>
+        </div>
+
+        <div class="total-score">
+            <p>Total Score: 240</p>
+        </div>
+    </div>
+</body>
+</html>
