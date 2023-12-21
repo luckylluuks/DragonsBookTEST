@@ -45,7 +45,7 @@
 <div class="dragon-info" data-number="00002">
   <h3>Ice Dragon</h3>
   <p>A dragon with icy breath.
-  <img src="example.jpg" alt="Ice Dragon"></p>
+  <img src="example.jpg" alt="Ice Dragon" style="width: 18vw;"></p>
 </div>
 <div class="dragon-info" data-number="00003">
   <h3>Thunder Dragon</h3>
