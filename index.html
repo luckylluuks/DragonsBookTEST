@@ -87,35 +87,42 @@
 
 function filterDragons() {
   // Get the search input value
-  const searchInput = document.getElementById('searchInput').value.toLowerCase();
+  const searchInput = document.getElementById('searchInput').value.trim().toLowerCase();
 
   // Get the original data
   const originalData = window.originalData;
 
-  // Create a regular expression to match the search input
-  const searchRegex = new RegExp(searchInput, 'i');
+  // Check if the search input is empty
+  if (searchInput === '') {
+    // If empty, hide all dragon info
+    document.getElementById('dynamic-content').innerHTML = '';
+  } else {
+    // Create a regular expression to match the search input
+    const searchRegex = new RegExp(searchInput, 'i');
 
-  // Filter the data based on both methods
-  const filteredData = originalData
-    .split('</div>')
-    .filter(item => {
-      const dragonInfo = item.toLowerCase();
-      return dragonInfo.includes(searchInput) || searchRegex.test(item);
-    })
-    .map(item => {
-      return item.includes('dragon-info') ? '<div class="dragon-info">' + item + '</div>' : item;
-    })
-    .join('');
+    // Filter the data based on both methods
+    const filteredData = originalData
+      .split('</div>')
+      .filter(item => {
+        const dragonInfo = item.toLowerCase();
+        return dragonInfo.includes(searchInput) || searchRegex.test(item);
+      })
+      .map(item => {
+        return item.includes('dragon-info') ? '<div class="dragon-info">' + item + '</div>' : item;
+      })
+      .join('');
 
-  // Display the filtered content in the dynamic-content div
-  document.getElementById('dynamic-content').innerHTML = filteredData;
+    // Display the filtered content in the dynamic-content div
+    document.getElementById('dynamic-content').innerHTML = filteredData;
 
-  // Show dragon-info elements if any results are found
-  const dragonInfoElements = document.getElementsByClassName('dragon-info');
-  for (let i = 0; i < dragonInfoElements.length; i++) {
-    dragonInfoElements[i].style.display = 'block';
+    // Show dragon-info elements if any results are found
+    const dragonInfoElements = document.getElementsByClassName('dragon-info');
+    for (let i = 0; i < dragonInfoElements.length; i++) {
+      dragonInfoElements[i].style.display = 'block';
+    }
   }
 }
+
 
 
 
