@@ -34,30 +34,27 @@
                 <li class="stat-item">Existential and Omnipotence: 28</li>
             </ul>
             </p>
-        </div>
-
         <div class="total-score">
             <p>Total Score: 240</p>
         </div>
+        </div>
+
     </div>
 
 
 </div>
 <div class="dragon-info" data-number="00002">
-  <img src="example.jpg" alt="Ice Dragon">
-  <h2>Ice Dragon</h2>
+  <h3>Ice Dragon</h3>
   <p>A dragon with icy breath.</p>
 </div>
 <div class="dragon-info" data-number="00003">
-  <img src="example.jpg" alt="Thunder Dragon">
-  <h2>Thunder Dragon</h2>
+  <h3>Thunder Dragon</h3>
   <p>A dragon that controls thunder and lightning.</p>
 
 
 </div>
 <div class="dragon-info" data-number="00004">
-  <img src="example.jpg" alt="Earth Dragon">
-  <h2>Earth Dragon</h2>
+  <h3>Earth Dragon</h3>
   <p>A dragon with the power to manipulate the earth.</p>
 </div>
 
