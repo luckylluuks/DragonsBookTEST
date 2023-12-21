@@ -13,7 +13,7 @@
     });
   </script>
   <!-- End Google Fonts -->
-    
+
   <style>
     body {
       font-family: 'PT Sans', sans-serif; /* Use the loaded Google Font */
@@ -28,7 +28,6 @@
       border-radius: 8px;
       box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
       margin: 20px;
-      padding: 20px;
     }
 
     .dragon-info h2 {
@@ -107,6 +106,96 @@
     </div>
   </div>
 </div>
+
+
+
+<div class="dragon-info" data-number="00002">
+  <h2>Ice Dragon</h2>
+  <p>A dragon breathing ICE.</p>
+
+  <div class="dragon-container">
+    <h1>Dragon Stats</h1>
+
+    <div class="stat-category">
+      <h3>Elemental Abilities</h3>
+      <ul class="stat-list">
+        <li class="stat-item">Elemental Manipulation: 11</li>
+        <li class="stat-item">Flight: 430</li>
+      </ul>
+    </div>
+
+    <div class="stat-category">
+      <h3>Base Abilities</h3>
+      <ul class="stat-list">
+                <li class="stat-item">Senses: 1</li>
+                <li class="stat-item">Defensive Abilities: 6</li>
+                <li class="stat-item">Offensive Abilities: 8</li>
+                <li class="stat-item">Other Abilities: 5</li>
+                <li class="stat-item">Intelligence and Wisdom: 4</li>
+                <li class="stat-item">Transformational Abilities: 12</li>
+                <li class="stat-item">Mystical and Celestial Abilities: 4</li>
+                <li class="stat-item">Empathy and Compassion: 9</li>
+                <li class="stat-item">Mental and Emotional Manipulation: 6</li>
+                <li class="stat-item">Life Force Manipulation: 13</li>
+                <li class="stat-item">Spiritual and Divine Abilities: 19</li>
+                <li class="stat-item">Cosmic and Primordial Forces: 4</li>
+                <li class="stat-item">Existential and Omnipotence: 28</li>
+      </ul>
+    </div>
+
+    <div class="total-score">
+      <p>Total Score: 440</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="dragon-info" data-number="00003">
+  <h2> Dragon</h2>
+  <p>A dragon breathing ICE.</p>
+
+  <div class="dragon-container">
+    <h1>Dragon </h1>
+
+    <div class="stat-category">
+      <h3>Elemental </h3>
+      <ul class="stat-list">
+        <li class="stat-item">Elemental Manipulation: 11</li>
+        <li class="stat-item">Flight: 430</li>
+      </ul>
+    </div>
+
+    <div class="stat-category">
+      <h3>Base Abilities</h3>
+      <ul class="stat-list">
+                <li class="stat-item">Senses: 1</li>
+                <li class="stat-item">Defensive Abilities: 6</li>
+                <li class="stat-item">Offensive Abilities: 8</li>
+                <li class="stat-item">Other Abilities: 5</li>
+                <li class="stat-item">Intelligence and Wisdom: 4</li>
+                <li class="stat-item"> Abilities: 12</li>
+                <li class="stat-item">Mystical and Celestial Abilities: 4</li>
+                <li class="stat-item">Empathy and Compassion: 9</li>
+                <li class="stat-item">Mental and Emotional Manipulation: 6</li>
+                <li class="stat-item">Life  : 13</li>
+                <li class="stat-item">Spiritual and Divine Abilities: 19</li>
+                <li class="stat-item">Forces: 4</li>
+                <li class="stat-item">Existential and Omnipotence: 28</li>
+      </ul>
+    </div>
+
+    <div class="total-score">
+      <p>Total Score: 140</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
 
 <!-- Add more dragon-info divs for other dragons -->
 
