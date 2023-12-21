@@ -97,7 +97,7 @@ function filterDragons() {
 
   // Filter the data based on both methods
   const filteredData = originalData
-    .split(/<\/div>\s*/g)
+    .split('</div>')
     .filter(item => {
       const dragonInfo = item.toLowerCase();
       return dragonInfo.includes(searchInput) || searchRegex.test(item);
@@ -116,6 +116,7 @@ function filterDragons() {
     dragonInfoElements[i].style.display = 'block';
   }
 }
+
 
 
   </script>
