@@ -105,28 +105,35 @@
         document.getElementById('dynamic-image').style.display = 'block';
     }
 
-    function filterDragons() {
-        // Get the search input value
-        const searchInput = document.getElementById('searchInput').value.toLowerCase();
+function filterDragons() {
+  // Get the search input value
+  const searchInput = document.getElementById('searchInput').value.toLowerCase();
 
-        // Get the original data
-        const originalData = window.originalData;
+  // Get the original data
+  let originalData = window.originalData;
 
-        // Filter the data based on the search input
-        const filteredData = searchInput
-            ? originalData
-                .split('</div>')
-                .filter(item => {
-                    const dragonInfo = item.toLowerCase();
-                    return dragonInfo.includes('>' + searchInput + '<');
-                })
-                .map(item => item + '</div>')
-                .join('')
-            : '';
+  // If this is the first search, store the original data
+  if (!originalData) {
+    originalData = document.getElementById('dynamic-content').innerHTML;
+    window.originalData = originalData;
+  }
 
-        // Display the filtered content in the dynamic-content div
-        document.getElementById('dynamic-content').innerHTML = filteredData;
-    }
+  // Filter the data based on the search input
+  const filteredData = searchInput
+    ? originalData
+        .split('</div>')
+        .filter(item => {
+          const dragonInfo = item.toLowerCase();
+          return dragonInfo.includes('>' + searchInput + '<');
+        })
+        .map(item => item + '</div>')
+        .join('')
+    : '';
+
+  // Display the filtered content in the dynamic-content div
+  document.getElementById('dynamic-content').innerHTML = filteredData;
+}
+
 </script>
 
 </body>
