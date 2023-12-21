@@ -5,60 +5,75 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dragon Information</title>
-  <style>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 20px;
+        text-align: center;
+    }
 
-        <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 20px;
-            text-align: center;
-        }
+    .dragon-container {
+        max-width: 600px;
+        margin: 0 auto;
+        background-image: url('https://firefly.adobe.com/public/t2i?id=urn%3Aaaid%3Asc%3AEU%3Abf4a220d-f518-4a48-88d6-b3610ddd8d7e.jpg');
+        background-size: cover;
+        background-position: center;
+        color: #000;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        font-family: 'Cinzel Decorative', cursive;
+    }
 
-        .dragon-container {
-            max-width: 600px;
-            margin: 0 auto;
-            background-image: url('https://firefly.adobe.com/public/t2i?id=urn%3Aaaid%3Asc%3AEU%3Abf4a220d-f518-4a48-88d6-b3610ddd8d7e.jpg');
-            background-size: cover;
-            background-position: center;
-            color: #000;
-            border-radius: 10px;
-            padding: 20px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            font-family: 'Cinzel Decorative', cursive;
-        }
+    h1 {
+        color: #fff;
+    }
 
-        h1 {
-            color: #fff;
-        }
+    .stat-category {
+        margin-top: 20px;
+    }
 
-        .stat-category {
-            margin-top: 20px;
-        }
+    .stat-category h2 {
+        color: #ddd;
+        margin-bottom: 10px;
+    }
 
-        .stat-category h2 {
-            color: #ddd;
-            margin-bottom: 10px;
-        }
+    .stat-list {
+        list-style-type: none;
+        padding: 0;
+    }
 
-        .stat-list {
-            list-style-type: none;
-            padding: 0;
-        }
+    .stat-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
 
-        .stat-item {
-            display: flex;
-            justify-content: space-between;
-            padding: 8px 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-        }
+    .total-score {
+        font-size: 1.2em;
+        margin-top: 20px;
+        color: #27ae60;
+    }
 
-        .total-score {
-            font-size: 1.2em;
-            margin-top: 20px;
-            color: #27ae60;
-        }
-    </style>
+    #content-container {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .dragon-info {
+        border: 1px solid #ccc;
+        margin-bottom: 10px;
+        padding: 10px;
+    }
+</style>
+
 
   
     #content-container {
@@ -86,48 +101,49 @@
     <img id="dynamic-image" style="display: none;">
   </div>
 
-  <script>
+<script>
     function loadContent() {
-      // Load content from GitHub
-      fetch('https://raw.githubusercontent.com/luckylluuks/DragonsBookTEST/main/dragons.txt')
-        .then(response => response.text())
-        .then(data => {
-          // Store the original data
-          window.originalData = data;
-          // Display the content in the dynamic-content div
-          document.getElementById('dynamic-content').innerHTML = data;
-        })
-        .catch(error => {
-          console.error('Error loading content:', error);
-        });
+        // Load content from GitHub
+        fetch('https://raw.githubusercontent.com/luckylluuks/DragonsBookTEST/main/dragons.txt')
+            .then(response => response.text())
+            .then(data => {
+                // Store the original data
+                window.originalData = data;
+                // Display the content in the dynamic-content div
+                document.getElementById('dynamic-content').innerHTML = data;
+            })
+            .catch(error => {
+                console.error('Error loading content:', error);
+            });
 
-      // Load an image (using a relative path)
-      document.getElementById('dynamic-image').src = 'example.jpg';  // Update the path if needed
-      document.getElementById('dynamic-image').style.display = 'block';
+        // Load an image (using a relative path)
+        document.getElementById('dynamic-image').src = 'example.jpg'; // Update the path if needed
+        document.getElementById('dynamic-image').style.display = 'block';
     }
 
     function filterDragons() {
-      // Get the search input value
-      const searchInput = document.getElementById('searchInput').value.toLowerCase();
+        // Get the search input value
+        const searchInput = document.getElementById('searchInput').value.toLowerCase();
 
-      // Get the original data
-      const originalData = window.originalData;
+        // Get the original data
+        const originalData = window.originalData;
 
-      // Filter the data based on the search input
-      const filteredData = searchInput
-        ? originalData
-            .split('</div>')
-            .filter(item => {
-              const dragonInfo = item.toLowerCase();
-              return dragonInfo.includes('>' + searchInput + '<');
-            })
-            .map(item => item + '</div>')
-            .join('')
-        : '';
+        // Filter the data based on the search input
+        const filteredData = searchInput
+            ? originalData
+                .split('</div>')
+                .filter(item => {
+                    const dragonInfo = item.toLowerCase();
+                    return dragonInfo.includes('>' + searchInput + '<');
+                })
+                .map(item => item + '</div>')
+                .join('')
+            : '';
 
-      // Display the filtered content in the dynamic-content div
-      document.getElementById('dynamic-content').innerHTML = filteredData;
+        // Display the filtered content in the dynamic-content div
+        document.getElementById('dynamic-content').innerHTML = filteredData;
     }
-  </script>
+</script>
+
 </body>
 </html>
