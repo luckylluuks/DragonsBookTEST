@@ -2,10 +2,7 @@
 <div class="dragon-info" data-number="00001">
   <h3>Fire Dragon</h3>
   <p>A dragon breathing fire.</p>
-
     <div class="dragon-container">
-        <h1>Dragon Stats</h1>
-
         <div class="stat-category">
             <h3>Elemental Abilities</h3>
             <p>
