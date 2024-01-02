@@ -1,6 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Player Stat Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
+<style>
+  /* General styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-color: #282c34; /* Dark background color */
+  margin: 0;
+  padding: 0;
+}
 
-<div class="dragon-info" data-number="000001<">
+/* Player Card styles */
+.player-card {
+  min-width: 300px;
+  max-width: 600px; /* Adjusted maximum width for better readability */
+  margin: 20px auto;
+  background-color: #000000;/* cool blue rgba(0, 123, 187, 0.9);*/ /* Increased opacity for better contrast */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for player cards */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for depth effect */
+  transition: transform 0.3s ease; /* Smooth scale transition on hover */
+}
+
+.player-card:hover {
+  transform: scale(1.05); /* Scale up on hover for a subtle effect */
+}
+
+.player-image {
+  width: 100px; /* Increased image size for better visibility */
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Light shadow for image */
+}
+
+.player-name {
+  font-size: 24px; /* Increased font size for emphasis */
+  font-weight: 700; /* Bold font weight for name */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.player-position {
+  font-size: 16px; /* Slightly increased font size for position */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.player-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.stat-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  width: 120px;
+  text-align: center;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.stat-value {
+  padding-right: 10px;
+  font-weight: 600;
+  color: #ffc107; /* Bright yellow for stat values */
+}
+
+.unique-abilities {
+  font-size: 20px; /* Increased font size for unique abilities heading */
+  font-weight: 700; /* Bold font weight for heading */
+  color: #ffc107;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 600px) {
+  .player-card {
+    max-width: 100%;
+  }
+}
+
+</style>
+
+<div class="dragon-info" data-number="00001">
 <div class="player-card">
 <img class="player-image" src="example.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon1</h2>
@@ -33,10 +129,9 @@
 </div>
 </div>
 
-
-<div class="dragon-info" data-number="000002<">
+<div class="dragon-info" data-number="00002">
 <div class="player-card">
-<img class="player-image" src="player.jpg" alt="Player Image" />
+<img class="player-image" src="example.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon2</h2>
 <h3 class="player-position">Dragon Type 2</h3>
 <div class="player-stats">
@@ -65,10 +160,9 @@
 </div>
 </div>
 
-
-<div class="dragon-info" data-number="000003<">
+<div class="dragon-info" data-number="00003">
 <div class="player-card">
-<img class="player-image" src="player.jpg" alt="Player Image" />
+<img class="player-image" src="example.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon3</h2>
 <h3 class="player-position">Dragon Type 3</h3>
 <div class="player-stats">
@@ -95,10 +189,9 @@
 </div>
 </div>
 
-
-<div class="dragon-info" data-number="000004<">
+<div class="dragon-info" data-number="00004">
 <div class="player-card">
-<img class="player-image" src="player.jpg" alt="Player Image" />
+<img class="player-image" src="example.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon4</h2>
 <h3 class="player-position">Dragon Type 4</h3>
 <div class="player-stats">
@@ -130,10 +223,9 @@
 </div>
 </div>
 
-
-<div class="dragon-info" data-number="000005<">
+<div class="dragon-info" data-number="00005">
 <div class="player-card">
-<img class="player-image" src="player.jpg" alt="Player Image" />
+<img class="player-image" src="example.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon5</h2>
 <h3 class="player-position">Dragon Type 5</h3>
 <div class="player-stats">
@@ -163,10 +255,9 @@
 </div>
 </div>
 
-
-<div class="dragon-info" data-number="000006<">
+<div class="dragon-info" data-number="00006">
 <div class="player-card">
-<img class="player-image" src="player.jpg" alt="Player Image" />
+<img class="player-image" src="example.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon6</h2>
 <h3 class="player-position">Dragon Type 6</h3>
 <div class="player-stats">
@@ -196,10 +287,9 @@
 </div>
 </div>
 
-
-<div class="dragon-info" data-number="000007<">
+<div class="dragon-info" data-number="00007">
 <div class="player-card">
-<img class="player-image" src="player.jpg" alt="Player Image" />
+<img class="player-image" src="example.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon7</h2>
 <h3 class="player-position">Dragon Type 7</h3>
 <div class="player-stats">
@@ -230,8 +320,7 @@
 </div>
 </div>
 
-
-<div class="dragon-info" data-number="000008<">
+<div class="dragon-info" data-number="00008">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon8</h2>
@@ -263,8 +352,7 @@
 </div>
 </div>
 
-
-<div class="dragon-info" data-number="000009<">
+<div class="dragon-info" data-number="00009">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon9</h2>
@@ -294,8 +382,7 @@
 </div>
 </div>
 
-
-<div class="dragon-info" data-number="0000010">
+<div class="dragon-info" data-number="00010">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon10</h2>
@@ -324,3 +411,8 @@
 </div>
 </div>
 </div>
+
+
+  
+</body>
+</html>
