@@ -1,19 +1,296 @@
-<div id="dragon1" class="dragon-card">
-    <div class="dragon-title">Dragon 1</div>
-    <ul class="dragon-stats">
-        <li class="ability">Elemental Manipulation: 4 points (base)</li>
-        <li class="ability">Flight: 12 points (base)</li>
-        <!-- Add more abilities as needed -->
-        <li class="ability">Total Score: 302</li>
-    </ul>
+
+<div class="player-card">
+<img class="player-image" src="example.jpg" alt="Player Image" />
+<h2 class="player-name">Dragon1</h2>
+<h3 class="player-position">Dragon Type 1</h3>
+<div class="player-stats">
+<p class="dragon-stats-heading">--- Dragon Stats ---</p>
+<p class="base-points">Elemental Manipulation: 6 points (base)</p>
+<p class="base-points">Flight: 7 points (base)</p>
+<p class="base-points">Senses: 10 points (base)</p>
+<p class="base-points">Defensive Abilities: 6 points (base)</p>
+<p class="base-points">Offensive Abilities: 10 points (base)</p>
+<p class="base-points">Other Abilities: 4 points (base)</p>
+<p class="base-points">Intelligence and Wisdom: 4 points (base)</p>
+<p class="base-points">Transformational Abilities: 4 points (base)</p>
+<p class="base-points">Mystical and Celestial Abilities: 7 points (base)</p>
+<p class="base-points">Empathy and Compassion: 1 points (base)</p>
+<p class="base-points">Mental and Emotional Manipulation: 6 points (base)</p>
+<p class="base-points">Life Force Manipulation: 8 points (base)</p>
+<p class="base-points">Spiritual and Divine Abilities: 8 points (base)</p>
+<p class="base-points">Cosmic and Primordial Forces: 2 points (base)</p>
+<p class="base-points">Existential and Omnipotence: 9 points (base)</p>
+<p class="advanced-points">Advanced Points: 10 points</p>
+<p class="unique-abilities">Unique Abilities:</p>
+<p class="unique-ability">&nbsp;&nbsp;Flight: 40 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Defensive Abilities: 160 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Other Abilities: 300 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Mental and Emotional Manipulation: 1100 (rarity * usefulness)</p>
+<p class="total-score">Total Score: 1702</p>
+</div>
 </div>
 
-<div id="dragon2" class="dragon-card">
-    <div class="dragon-title">Dragon 2</div>
-    <ul class="dragon-stats">
-        <li class="ability">Elemental Manipulation: 9 points (base)</li>
-        <li class="ability">Flight: 19 points (base)</li>
-        <!-- Add more abilities as needed -->
-        <li class="ability">Total Score: 227</li>
-    </ul>
+<div class="player-card">
+<img class="player-image" src="player.jpg" alt="Player Image" />
+<h2 class="player-name">Dragon2</h2>
+<h3 class="player-position">Dragon Type 2</h3>
+<div class="player-stats">
+<p class="dragon-stats-heading">--- Dragon Stats ---</p>
+<p class="base-points">Elemental Manipulation: 4 points (base)</p>
+<p class="base-points">Flight: 3 points (base)</p>
+<p class="base-points">Senses: 6 points (base)</p>
+<p class="base-points">Defensive Abilities: 5 points (base)</p>
+<p class="base-points">Offensive Abilities: 10 points (base)</p>
+<p class="base-points">Other Abilities: 6 points (base)</p>
+<p class="base-points">Intelligence and Wisdom: 2 points (base)</p>
+<p class="base-points">Transformational Abilities: 6 points (base)</p>
+<p class="base-points">Mystical and Celestial Abilities: 6 points (base)</p>
+<p class="base-points">Empathy and Compassion: 9 points (base)</p>
+<p class="base-points">Mental and Emotional Manipulation: 10 points (base)</p>
+<p class="base-points">Life Force Manipulation: 9 points (base)</p>
+<p class="base-points">Spiritual and Divine Abilities: 1 points (base)</p>
+<p class="base-points">Cosmic and Primordial Forces: 4 points (base)</p>
+<p class="base-points">Existential and Omnipotence: 6 points (base)</p>
+<p class="advanced-points">Advanced Points: 10 points</p>
+<p class="unique-abilities">Unique Abilities:</p>
+<p class="unique-ability">&nbsp;&nbsp;Elemental Manipulation: 10 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Flight: 40 (rarity * usefulness)</p>
+<p class="total-score">Total Score: 147</p>
+</div>
+</div>
+
+<div class="player-card">
+<img class="player-image" src="player.jpg" alt="Player Image" />
+<h2 class="player-name">Dragon3</h2>
+<h3 class="player-position">Dragon Type 3</h3>
+<div class="player-stats">
+<p class="dragon-stats-heading">--- Dragon Stats ---</p>
+<p class="base-points">Elemental Manipulation: 10 points (base)</p>
+<p class="base-points">Flight: 5 points (base)</p>
+<p class="base-points">Senses: 5 points (base)</p>
+<p class="base-points">Defensive Abilities: 10 points (base)</p>
+<p class="base-points">Offensive Abilities: 7 points (base)</p>
+<p class="base-points">Other Abilities: 7 points (base)</p>
+<p class="base-points">Intelligence and Wisdom: 3 points (base)</p>
+<p class="base-points">Transformational Abilities: 2 points (base)</p>
+<p class="base-points">Mystical and Celestial Abilities: 5 points (base)</p>
+<p class="base-points">Empathy and Compassion: 5 points (base)</p>
+<p class="base-points">Mental and Emotional Manipulation: 1 points (base)</p>
+<p class="base-points">Life Force Manipulation: 5 points (base)</p>
+<p class="base-points">Spiritual and Divine Abilities: 1 points (base)</p>
+<p class="base-points">Cosmic and Primordial Forces: 9 points (base)</p>
+<p class="base-points">Existential and Omnipotence: 1 points (base)</p>
+<p class="advanced-points">Advanced Points: 10 points</p>
+<p class="unique-abilities">Unique Abilities:</p>
+<p class="total-score">Total Score: 86</p>
+</div>
+</div>
+
+<div class="player-card">
+<img class="player-image" src="player.jpg" alt="Player Image" />
+<h2 class="player-name">Dragon4</h2>
+<h3 class="player-position">Dragon Type 4</h3>
+<div class="player-stats">
+<p class="dragon-stats-heading">--- Dragon Stats ---</p>
+<p class="base-points">Elemental Manipulation: 8 points (base)</p>
+<p class="base-points">Flight: 5 points (base)</p>
+<p class="base-points">Senses: 1 points (base)</p>
+<p class="base-points">Defensive Abilities: 5 points (base)</p>
+<p class="base-points">Offensive Abilities: 4 points (base)</p>
+<p class="base-points">Other Abilities: 1 points (base)</p>
+<p class="base-points">Intelligence and Wisdom: 5 points (base)</p>
+<p class="base-points">Transformational Abilities: 10 points (base)</p>
+<p class="base-points">Mystical and Celestial Abilities: 1 points (base)</p>
+<p class="base-points">Empathy and Compassion: 4 points (base)</p>
+<p class="base-points">Mental and Emotional Manipulation: 4 points (base)</p>
+<p class="base-points">Life Force Manipulation: 10 points (base)</p>
+<p class="base-points">Spiritual and Divine Abilities: 3 points (base)</p>
+<p class="base-points">Cosmic and Primordial Forces: 3 points (base)</p>
+<p class="base-points">Existential and Omnipotence: 8 points (base)</p>
+<p class="advanced-points">Advanced Points: 10 points</p>
+<p class="unique-abilities">Unique Abilities:</p>
+<p class="unique-ability">&nbsp;&nbsp;Elemental Manipulation: 10 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Flight: 40 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Senses: 90 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Defensive Abilities: 160 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Offensive Abilities: 200 (rarity * usefulness)</p>
+<p class="total-score">Total Score: 582</p>
+</div>
+</div>
+
+<div class="player-card">
+<img class="player-image" src="player.jpg" alt="Player Image" />
+<h2 class="player-name">Dragon5</h2>
+<h3 class="player-position">Dragon Type 5</h3>
+<div class="player-stats">
+<p class="dragon-stats-heading">--- Dragon Stats ---</p>
+<p class="base-points">Elemental Manipulation: 2 points (base)</p>
+<p class="base-points">Flight: 1 points (base)</p>
+<p class="base-points">Senses: 4 points (base)</p>
+<p class="base-points">Defensive Abilities: 10 points (base)</p>
+<p class="base-points">Offensive Abilities: 9 points (base)</p>
+<p class="base-points">Other Abilities: 1 points (base)</p>
+<p class="base-points">Intelligence and Wisdom: 8 points (base)</p>
+<p class="base-points">Transformational Abilities: 5 points (base)</p>
+<p class="base-points">Mystical and Celestial Abilities: 6 points (base)</p>
+<p class="base-points">Empathy and Compassion: 6 points (base)</p>
+<p class="base-points">Mental and Emotional Manipulation: 1 points (base)</p>
+<p class="base-points">Life Force Manipulation: 2 points (base)</p>
+<p class="base-points">Spiritual and Divine Abilities: 9 points (base)</p>
+<p class="base-points">Cosmic and Primordial Forces: 10 points (base)</p>
+<p class="base-points">Existential and Omnipotence: 6 points (base)</p>
+<p class="advanced-points">Advanced Points: 10 points</p>
+<p class="unique-abilities">Unique Abilities:</p>
+<p class="unique-ability">&nbsp;&nbsp;Defensive Abilities: 160 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Life Force Manipulation: 1320 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Existential and Omnipotence: 2100 (rarity * usefulness)</p>
+<p class="total-score">Total Score: 3670</p>
+</div>
+</div>
+
+<div class="player-card">
+<img class="player-image" src="player.jpg" alt="Player Image" />
+<h2 class="player-name">Dragon6</h2>
+<h3 class="player-position">Dragon Type 6</h3>
+<div class="player-stats">
+<p class="dragon-stats-heading">--- Dragon Stats ---</p>
+<p class="base-points">Elemental Manipulation: 4 points (base)</p>
+<p class="base-points">Flight: 5 points (base)</p>
+<p class="base-points">Senses: 9 points (base)</p>
+<p class="base-points">Defensive Abilities: 2 points (base)</p>
+<p class="base-points">Offensive Abilities: 6 points (base)</p>
+<p class="base-points">Other Abilities: 6 points (base)</p>
+<p class="base-points">Intelligence and Wisdom: 6 points (base)</p>
+<p class="base-points">Transformational Abilities: 8 points (base)</p>
+<p class="base-points">Mystical and Celestial Abilities: 3 points (base)</p>
+<p class="base-points">Empathy and Compassion: 9 points (base)</p>
+<p class="base-points">Mental and Emotional Manipulation: 9 points (base)</p>
+<p class="base-points">Life Force Manipulation: 4 points (base)</p>
+<p class="base-points">Spiritual and Divine Abilities: 7 points (base)</p>
+<p class="base-points">Cosmic and Primordial Forces: 6 points (base)</p>
+<p class="base-points">Existential and Omnipotence: 5 points (base)</p>
+<p class="advanced-points">Advanced Points: 10 points</p>
+<p class="unique-abilities">Unique Abilities:</p>
+<p class="unique-ability">&nbsp;&nbsp;Flight: 40 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Offensive Abilities: 200 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Intelligence and Wisdom: 420 (rarity * usefulness)</p>
+<p class="total-score">Total Score: 759</p>
+</div>
+</div>
+
+<div class="player-card">
+<img class="player-image" src="player.jpg" alt="Player Image" />
+<h2 class="player-name">Dragon7</h2>
+<h3 class="player-position">Dragon Type 7</h3>
+<div class="player-stats">
+<p class="dragon-stats-heading">--- Dragon Stats ---</p>
+<p class="base-points">Elemental Manipulation: 3 points (base)</p>
+<p class="base-points">Flight: 7 points (base)</p>
+<p class="base-points">Senses: 7 points (base)</p>
+<p class="base-points">Defensive Abilities: 2 points (base)</p>
+<p class="base-points">Offensive Abilities: 3 points (base)</p>
+<p class="base-points">Other Abilities: 4 points (base)</p>
+<p class="base-points">Intelligence and Wisdom: 4 points (base)</p>
+<p class="base-points">Transformational Abilities: 2 points (base)</p>
+<p class="base-points">Mystical and Celestial Abilities: 3 points (base)</p>
+<p class="base-points">Empathy and Compassion: 1 points (base)</p>
+<p class="base-points">Mental and Emotional Manipulation: 9 points (base)</p>
+<p class="base-points">Life Force Manipulation: 4 points (base)</p>
+<p class="base-points">Spiritual and Divine Abilities: 7 points (base)</p>
+<p class="base-points">Cosmic and Primordial Forces: 5 points (base)</p>
+<p class="base-points">Existential and Omnipotence: 1 points (base)</p>
+<p class="advanced-points">Advanced Points: 10 points</p>
+<p class="unique-abilities">Unique Abilities:</p>
+<p class="unique-ability">&nbsp;&nbsp;Elemental Manipulation: 10 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Senses: 90 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Defensive Abilities: 160 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Offensive Abilities: 200 (rarity * usefulness)</p>
+<p class="total-score">Total Score: 532</p>
+</div>
+</div>
+
+<div class="player-card">
+<img class="player-image" src="player.jpg" alt="Player Image" />
+<h2 class="player-name">Dragon8</h2>
+<h3 class="player-position">Dragon Type 8</h3>
+<div class="player-stats">
+<p class="dragon-stats-heading">--- Dragon Stats ---</p>
+<p class="base-points">Elemental Manipulation: 1 points (base)</p>
+<p class="base-points">Flight: 1 points (base)</p>
+<p class="base-points">Senses: 3 points (base)</p>
+<p class="base-points">Defensive Abilities: 1 points (base)</p>
+<p class="base-points">Offensive Abilities: 5 points (base)</p>
+<p class="base-points">Other Abilities: 8 points (base)</p>
+<p class="base-points">Intelligence and Wisdom: 5 points (base)</p>
+<p class="base-points">Transformational Abilities: 4 points (base)</p>
+<p class="base-points">Mystical and Celestial Abilities: 3 points (base)</p>
+<p class="base-points">Empathy and Compassion: 2 points (base)</p>
+<p class="base-points">Mental and Emotional Manipulation: 2 points (base)</p>
+<p class="base-points">Life Force Manipulation: 10 points (base)</p>
+<p class="base-points">Spiritual and Divine Abilities: 3 points (base)</p>
+<p class="base-points">Cosmic and Primordial Forces: 9 points (base)</p>
+<p class="base-points">Existential and Omnipotence: 2 points (base)</p>
+<p class="advanced-points">Advanced Points: 10 points</p>
+<p class="unique-abilities">Unique Abilities:</p>
+<p class="unique-ability">&nbsp;&nbsp;Flight: 40 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Senses: 90 (rarity * usefulness)</p>
+<p class="unique-ability">&nbsp;&nbsp;Offensive Abilities: 200 (rarity * usefulness)</p>
+<p class="total-score">Total Score: 399</p>
+</div>
+</div>
+
+<div class="player-card">
+<img class="player-image" src="player.jpg" alt="Player Image" />
+<h2 class="player-name">Dragon9</h2>
+<h3 class="player-position">Dragon Type 9</h3>
+<div class="player-stats">
+<p class="dragon-stats-heading">--- Dragon Stats ---</p>
+<p class="base-points">Elemental Manipulation: 7 points (base)</p>
+<p class="base-points">Flight: 9 points (base)</p>
+<p class="base-points">Senses: 9 points (base)</p>
+<p class="base-points">Defensive Abilities: 5 points (base)</p>
+<p class="base-points">Offensive Abilities: 9 points (base)</p>
+<p class="base-points">Other Abilities: 1 points (base)</p>
+<p class="base-points">Intelligence and Wisdom: 5 points (base)</p>
+<p class="base-points">Transformational Abilities: 10 points (base)</p>
+<p class="base-points">Mystical and Celestial Abilities: 5 points (base)</p>
+<p class="base-points">Empathy and Compassion: 7 points (base)</p>
+<p class="base-points">Mental and Emotional Manipulation: 4 points (base)</p>
+<p class="base-points">Life Force Manipulation: 2 points (base)</p>
+<p class="base-points">Spiritual and Divine Abilities: 1 points (base)</p>
+<p class="base-points">Cosmic and Primordial Forces: 9 points (base)</p>
+<p class="base-points">Existential and Omnipotence: 4 points (base)</p>
+<p class="advanced-points">Advanced Points: 10 points</p>
+<p class="unique-abilities">Unique Abilities:</p>
+<p class="unique-ability">&nbsp;&nbsp;Empathy and Compassion: 900 (rarity * usefulness)</p>
+<p class="total-score">Total Score: 997</p>
+</div>
+</div>
+
+<div class="player-card">
+<img class="player-image" src="player.jpg" alt="Player Image" />
+<h2 class="player-name">Dragon10</h2>
+<h3 class="player-position">Dragon Type 10</h3>
+<div class="player-stats">
+<p class="dragon-stats-heading">--- Dragon Stats ---</p>
+<p class="base-points">Elemental Manipulation: 8 points (base)</p>
+<p class="base-points">Flight: 6 points (base)</p>
+<p class="base-points">Senses: 7 points (base)</p>
+<p class="base-points">Defensive Abilities: 4 points (base)</p>
+<p class="base-points">Offensive Abilities: 6 points (base)</p>
+<p class="base-points">Other Abilities: 7 points (base)</p>
+<p class="base-points">Intelligence and Wisdom: 4 points (base)</p>
+<p class="base-points">Transformational Abilities: 5 points (base)</p>
+<p class="base-points">Mystical and Celestial Abilities: 6 points (base)</p>
+<p class="base-points">Empathy and Compassion: 9 points (base)</p>
+<p class="base-points">Mental and Emotional Manipulation: 5 points (base)</p>
+<p class="base-points">Life Force Manipulation: 7 points (base)</p>
+<p class="base-points">Spiritual and Divine Abilities: 3 points (base)</p>
+<p class="base-points">Cosmic and Primordial Forces: 7 points (base)</p>
+<p class="base-points">Existential and Omnipotence: 2 points (base)</p>
+<p class="advanced-points">Advanced Points: 10 points</p>
+<p class="unique-abilities">Unique Abilities:</p>
+<p class="unique-ability">&nbsp;&nbsp;Elemental Manipulation: 10 (rarity * usefulness)</p>
+<p class="total-score">Total Score: 106</p>
+</div>
 </div>
