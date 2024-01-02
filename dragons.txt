@@ -1,4 +1,6 @@
 
+
+<div class="dragon-info" data-number="00001">
 <div class="player-card">
 <img class="player-image" src="example.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon1</h2>
@@ -29,7 +31,10 @@
 <p class="total-score">Total Score: 1702</p>
 </div>
 </div>
+</div>
 
+
+<div class="dragon-info" data-number="00001">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon2</h2>
@@ -58,7 +63,10 @@
 <p class="total-score">Total Score: 147</p>
 </div>
 </div>
+</div>
 
+
+<div class="dragon-info" data-number="00001">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon3</h2>
@@ -85,7 +93,10 @@
 <p class="total-score">Total Score: 86</p>
 </div>
 </div>
+</div>
 
+
+<div class="dragon-info" data-number="00001">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon4</h2>
@@ -117,7 +128,10 @@
 <p class="total-score">Total Score: 582</p>
 </div>
 </div>
+</div>
 
+
+<div class="dragon-info" data-number="00001">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon5</h2>
@@ -147,7 +161,10 @@
 <p class="total-score">Total Score: 3670</p>
 </div>
 </div>
+</div>
 
+
+<div class="dragon-info" data-number="00001">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon6</h2>
@@ -177,7 +194,10 @@
 <p class="total-score">Total Score: 759</p>
 </div>
 </div>
+</div>
 
+
+<div class="dragon-info" data-number="00001">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon7</h2>
@@ -208,7 +228,10 @@
 <p class="total-score">Total Score: 532</p>
 </div>
 </div>
+</div>
 
+
+<div class="dragon-info" data-number="00001">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon8</h2>
@@ -238,7 +261,10 @@
 <p class="total-score">Total Score: 399</p>
 </div>
 </div>
+</div>
 
+
+<div class="dragon-info" data-number="00001">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon9</h2>
@@ -266,7 +292,10 @@
 <p class="total-score">Total Score: 997</p>
 </div>
 </div>
+</div>
 
+
+<div class="dragon-info" data-number="00001">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon10</h2>
@@ -292,5 +321,6 @@
 <p class="unique-abilities">Unique Abilities:</p>
 <p class="unique-ability">&nbsp;&nbsp;Elemental Manipulation: 10 (rarity * usefulness)</p>
 <p class="total-score">Total Score: 106</p>
+</div>
 </div>
 </div>
