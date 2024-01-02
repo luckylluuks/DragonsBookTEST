@@ -1,6 +1,6 @@
 
 
-<div class="dragon-info" data-number="00001">
+<div class="dragon-info" data-number="000001<">
 <div class="player-card">
 <img class="player-image" src="example.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon1</h2>
@@ -34,7 +34,7 @@
 </div>
 
 
-<div class="dragon-info" data-number="00001">
+<div class="dragon-info" data-number="000002<">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon2</h2>
@@ -66,7 +66,7 @@
 </div>
 
 
-<div class="dragon-info" data-number="00001">
+<div class="dragon-info" data-number="000003<">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon3</h2>
@@ -96,7 +96,7 @@
 </div>
 
 
-<div class="dragon-info" data-number="00001">
+<div class="dragon-info" data-number="000004<">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon4</h2>
@@ -131,7 +131,7 @@
 </div>
 
 
-<div class="dragon-info" data-number="00001">
+<div class="dragon-info" data-number="000005<">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon5</h2>
@@ -164,7 +164,7 @@
 </div>
 
 
-<div class="dragon-info" data-number="00001">
+<div class="dragon-info" data-number="000006<">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon6</h2>
@@ -197,7 +197,7 @@
 </div>
 
 
-<div class="dragon-info" data-number="00001">
+<div class="dragon-info" data-number="000007<">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon7</h2>
@@ -231,7 +231,7 @@
 </div>
 
 
-<div class="dragon-info" data-number="00001">
+<div class="dragon-info" data-number="000008<">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon8</h2>
@@ -264,7 +264,7 @@
 </div>
 
 
-<div class="dragon-info" data-number="00001">
+<div class="dragon-info" data-number="000009<">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon9</h2>
@@ -295,7 +295,7 @@
 </div>
 
 
-<div class="dragon-info" data-number="00001">
+<div class="dragon-info" data-number="0000010">
 <div class="player-card">
 <img class="player-image" src="player.jpg" alt="Player Image" />
 <h2 class="player-name">Dragon10</h2>
