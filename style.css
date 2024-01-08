@@ -1,0 +1,85 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background-color: #282c34; /* Dark background color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Player Card styles */
+.player-card {
+  min-width: 300px;
+  max-width: 600px; /* Adjusted maximum width for better readability */
+  margin: 20px auto;
+  background-color: #000000;/* cool blue rgba(0, 123, 187, 0.9);*/ /* Increased opacity for better contrast */
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners for player cards */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for depth effect */
+  transition: transform 0.3s ease; /* Smooth scale transition on hover */
+}
+
+.player-card:hover {
+  transform: scale(1.05); /* Scale up on hover for a subtle effect */
+}
+
+.player-image {
+  min-width: 300px;
+  max-width: 600px; /* Adjusted maximum width for better readability */
+  border-radius: 4%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Light shadow for image */
+}
+
+.player-name {
+  font-size: 24px; /* Increased font size for emphasis */
+  font-weight: 700; /* Bold font weight for name */
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.player-position {
+  font-size: 16px; /* Slightly increased font size for position */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.player-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.stat-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  width: 120px;
+  text-align: center;
+  font-weight: 600;
+  color: #f2f2f2;
+}
+
+.stat-value {
+  padding-right: 10px;
+  font-weight: 600;
+  color: #ffc107; /* Bright yellow for stat values */
+}
+
+.unique-abilities {
+  font-size: 20px; /* Increased font size for unique abilities heading */
+  font-weight: 700; /* Bold font weight for heading */
+  color: #ffc107;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 600px) {
+  .player-card {
+    max-width: 100%;
+  }
+}
