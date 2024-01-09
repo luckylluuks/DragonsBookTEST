@@ -1,13 +1,5 @@
 
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Player Stat Card</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
 <div class="dragon-info" data-number="00001">
 <div class="player-card">
 <img class="player-image" src="example.jpg" alt="Player Image" />
@@ -324,6 +316,4 @@
 </div>
 </div>
 
- 
-</body>
-</html>
+
