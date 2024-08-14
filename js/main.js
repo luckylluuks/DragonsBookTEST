@@ -28,18 +28,18 @@ const loader = new GLTFLoader();
 
 //Load the file
 loader.load(
-  `models/${objToRender}/scene.gltf`,
+  'https://github.com/luckylluuks/DragonsBookTEST/tree/main/Model/scene.gltf',  // Adjusted path based on the folder structure
   function (gltf) {
-    //If the file is loaded, add it to the scene
+    // If the file is loaded, add it to the scene
     object = gltf.scene;
     scene.add(object);
   },
   function (xhr) {
-    //While it is loading, log the progress
+    // While it is loading, log the progress
     console.log((xhr.loaded / xhr.total * 100) + '% loaded');
   },
   function (error) {
-    //If there is an error, log it
+    // If there is an error, log it
     console.error(error);
   }
 );
