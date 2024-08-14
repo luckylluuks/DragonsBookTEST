@@ -17,14 +17,13 @@ const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
+// Controls
 const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 controls.dampingFactor = 0.05;
 controls.enableZoom = true;
-const controls = new OrbitControls(camera, renderer.domElement);
-controls.enableDamping = true;
-controls.dampingFactor = 0.05;
-controls.enableZoom = true;
+
+// TransformControls
 const transformControls = new TransformControls(camera, renderer.domElement);
 transformControls.attach(cube);
 scene.add(transformControls);
@@ -33,6 +32,9 @@ scene.add(transformControls);
 transformControls.addEventListener('dragging-changed', function (event) {
     controls.enabled = !event.value;
 });
+
+// Animation loop
+const clock = new THREE.Clock();
 function animate() {
     requestAnimationFrame(animate);
 
@@ -44,6 +46,8 @@ function animate() {
 }
 
 animate();
+
+// Handle window resize
 window.addEventListener('resize', () => {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
