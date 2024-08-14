@@ -23,24 +23,30 @@ let controls;
 //Set which object to render
 let objToRender = 'eye';
 
-//Instantiate a loader for the .gltf file
+// Instantiate a loader for the .gltf file
 const loader = new GLTFLoader();
 
-//Load the file
+// Load the file
 loader.load(
-  'https://raw.githubusercontent.com/luckylluuks/DragonsBookTEST/main/Model/scene.gltf',  // Adjusted path based on the folder structure
+  'https://raw.githubusercontent.com/luckylluuks/DragonsBookTEST/main/Model/scene.gltf',  // Path to the .gltf file
   function (gltf) {
     // If the file is loaded, add it to the scene
     object = gltf.scene;
     scene.add(object);
+    console.log('Model loaded successfully');
   },
   function (xhr) {
     // While it is loading, log the progress
-    console.log((xhr.loaded / xhr.total * 100) + '% loaded');
+    if (xhr.total > 0) {
+      const percentage = (xhr.loaded / xhr.total * 100).toFixed(2);
+      console.log(`${percentage}% loaded`);
+    } else {
+      console.log('Loading in progress...');
+    }
   },
   function (error) {
     // If there is an error, log it
-    console.error(error);
+    console.error('An error occurred:', error);
   }
 );
 
