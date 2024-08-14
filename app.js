@@ -1,6 +1,6 @@
-import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js';
-import { OrbitControls } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/controls/OrbitControls.js';
-import { TransformControls } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/controls/TransformControls.js';
+import * as THREE from 'https://unpkg.com/three@0.128.0/build/three.module.js';
+import { OrbitControls } from 'https://unpkg.com/three@0.128.0/examples/jsm/controls/OrbitControls.js';
+import { TransformControls } from 'https://unpkg.com/three@0.128.0/examples/jsm/controls/TransformControls.js';
 
 // Scene
 const scene = new THREE.Scene();
@@ -22,7 +22,7 @@ scene.add(cube);
 
 // Controls
 const controls = new OrbitControls(camera, renderer.domElement);
-controls.enableDamping = true; // an animation loop is required when either damping or auto-rotation are enabled
+controls.enableDamping = true;
 controls.dampingFactor = 0.25;
 controls.enableZoom = true;
 
