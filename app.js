@@ -1,16 +1,11 @@
 import * as THREE from 'https://unpkg.com/three@0.128.0/build/three.module.js';
 import { OrbitControls } from 'https://unpkg.com/three@0.128.0/examples/jsm/controls/OrbitControls.js';
 import { TransformControls } from 'https://unpkg.com/three@0.128.0/examples/jsm/controls/TransformControls.js';
-import { AnimationMixer, KeyframeTrack, AnimationClip, VectorKeyframeTrack, QuaternionKeyframeTrack } from 'https://unpkg.com/three@0.128.0/examples/jsm/animation/Animation.js';
 
-// Scene
+// Scene setup
 const scene = new THREE.Scene();
-
-// Camera
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 camera.position.z = 5;
-
-// Renderer
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
@@ -48,14 +43,14 @@ const rotationValues = [
 ];
 
 // Create position and rotation keyframe tracks
-const positionKF = new VectorKeyframeTrack('.position', times, positionValues);
-const rotationKF = new QuaternionKeyframeTrack('.rotation', times, rotationValues);
+const positionKF = new THREE.VectorKeyframeTrack('.position', times, positionValues);
+const rotationKF = new THREE.QuaternionKeyframeTrack('.quaternion', times, rotationValues);
 
 // Create animation clip
-const clip = new AnimationClip('Action', -1, [positionKF, rotationKF]);
+const clip = new THREE.AnimationClip('Action', -1, [positionKF, rotationKF]);
 
 // Create animation mixer
-const mixer = new AnimationMixer(cube);
+const mixer = new THREE.AnimationMixer(cube);
 mixer.clipAction(clip).play();
 
 // Animation loop
