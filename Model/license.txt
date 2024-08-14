@@ -1,0 +1,11 @@
+Model Information:
+* title:	Gadget - Radio - Flashlight - Radar
+* source:	https://sketchfab.com/3d-models/gadget-radio-flashlight-radar-0b5b372e56de4999997750275da64b17
+* author:	re1monsen (https://sketchfab.com/re1monsen)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gadget - Radio - Flashlight - Radar" (https://sketchfab.com/3d-models/gadget-radio-flashlight-radar-0b5b372e56de4999997750275da64b17) by re1monsen (https://sketchfab.com/re1monsen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
