@@ -1,6 +1,4 @@
-import * as THREE from 'https://unpkg.com/three@0.128.0/build/three.module.js';
-import { OrbitControls } from 'https://unpkg.com/three@0.128.0/examples/jsm/controls/OrbitControls.js';
-import { TransformControls } from 'https://unpkg.com/three@0.128.0/examples/jsm/controls/TransformControls.js';
+import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js';
 
 // Scene
 const scene = new THREE.Scene();
@@ -20,37 +18,13 @@ const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
-// Controls
-const controls = new OrbitControls(camera, renderer.domElement);
-controls.enableDamping = true;
-controls.dampingFactor = 0.25;
-controls.enableZoom = true;
-
-// TransformControls
-const transformControls = new TransformControls(camera, renderer.domElement);
-transformControls.attach(cube);
-scene.add(transformControls);
-
-// Handle TransformControls Mode
-document.addEventListener('keydown', (event) => {
-    switch (event.key) {
-        case 't': // Translate mode
-            transformControls.setMode('translate');
-            break;
-        case 'r': // Rotate mode
-            transformControls.setMode('rotate');
-            break;
-        case 's': // Scale mode
-            transformControls.setMode('scale');
-            break;
-    }
-});
-
 // Animation Loop
 function animate() {
     requestAnimationFrame(animate);
 
-    controls.update(); // only required if controls.enableDamping = true, or if controls.autoRotate = true
+    // Rotation
+    cube.rotation.x += 0.01;
+    cube.rotation.y += 0.01;
 
     renderer.render(scene, camera);
 }
