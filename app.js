@@ -1,6 +1,6 @@
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js';
-import { DragControls } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/controls/DragControls.js';
-import { OrbitControls } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/controls/OrbitControls.js';
+import { DragControls } from 'https://threejs.org/examples/js/controls/DragControls.js';
+import { OrbitControls } from 'https://threejs.org/examples/js/controls/OrbitControls.js';
 
 // Scene
 const scene = new THREE.Scene();
