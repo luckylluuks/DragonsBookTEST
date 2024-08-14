@@ -1,4 +1,6 @@
 import * as THREE from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.module.js';
+import { DragControls } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/controls/DragControls.js';
+import { OrbitControls } from 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/controls/OrbitControls.js';
 
 // Scene
 const scene = new THREE.Scene();
@@ -18,14 +20,26 @@ const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
 const cube = new THREE.Mesh(geometry, material);
 scene.add(cube);
 
+// Orbit Controls (for rotating the view)
+const orbitControls = new OrbitControls(camera, renderer.domElement);
+orbitControls.enableDamping = true;
+orbitControls.dampingFactor = 0.25;
+orbitControls.enableZoom = true;
+
+// Drag Controls
+const dragControls = new DragControls([cube], camera, renderer.domElement);
+dragControls.addEventListener('drag', function (event) {
+    // Optionally handle drag event
+});
+
 // Animation Loop
 function animate() {
     requestAnimationFrame(animate);
 
-    // Rotation
-    cube.rotation.x += 0.01;
-    cube.rotation.y += 0.01;
-
+    // Update controls
+    orbitControls.update();
+    
+    // Render the scene
     renderer.render(scene, camera);
 }
 
