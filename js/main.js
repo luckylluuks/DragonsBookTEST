@@ -28,7 +28,7 @@ const loader = new GLTFLoader();
 
 //Load the file
 loader.load(
-  'https://github.com/luckylluuks/DragonsBookTEST/tree/main/Model/scene.gltf',  // Adjusted path based on the folder structure
+  'https://raw.githubusercontent.com/luckylluuks/DragonsBookTEST/main/Model/scene.gltf',  // Adjusted path based on the folder structure
   function (gltf) {
     // If the file is loaded, add it to the scene
     object = gltf.scene;
